@@ -8,7 +8,7 @@
   <h1>Investor's App</h1>
   <p>Calculate intrinsic value using the Graham formula.</p>
 
-  <form id="graham-form" style="max-width:480px">
+  <form id="graham-form">
     <label>EPS (Trailing 12M): <br>
       <input id="eps" type="number" step="0.01" placeholder="e.g. 6.90" required>
     </label><br><br>
@@ -26,7 +26,7 @@
 
   <h3 id="result" style="margin-top:16px;"></h3>
 
-  <!-- Load your logic -->
+  <!-- Attach your JavaScript -->
   <script src="app.js"></script>
 </body>
 </html>
